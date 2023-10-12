@@ -1,0 +1,6 @@
+0. 下载数据，链接: https://pan.baidu.com/s/1gba7xLN4u9xe_um0Eh7Afg 提取码: pz57 复制这段内容后打开百度网盘手机App，操作更方便哦
+放置到static/data/文件夹中，替换空文件。
+1. 首先导入dump-tracker-202206101647.sql，可以连接到数据库。
+2. 修改config.py，将其中的username和password改为当前主机的用户名和密码
+3. pip install -r requirements.txt
+4. 运行文件server.py和server_cloud.py
